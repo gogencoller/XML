@@ -7,6 +7,7 @@ XML
  22. Клонировать репозиторий XML на локальный компьютер.
  
  git clone
+
  23. Внутри локального XML создать файл “new.xml”.
  
  touch new.xml
@@ -95,8 +96,57 @@ git add .
 git commit -m ""
 
  33. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
  34. На веб интерфейсе создать файл bug_report.xml.
+
+Add new file bug_report.xml
+
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Add commit
+
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+    <item>
+        <key>Type</key>
+        <value>bug_report</value>
+    </item>
+    <item>
+        <key>Priority</key>
+        <value>Medium</value>
+    </item>
+    <item>
+        <key>Severenity</key>
+        <value>Major</value>
+    </item>
+    <item>
+        <key>Description</key>
+        <value>"SecondStep": "pass autorization",
+      "ThirdStep": "Press the button Menu",
+      "FourthStep": "Pay attention to the screen",
+      "ExpectedResult": "Press the button Menu and see categories of products",
+      "Result": "Press button Menu and see error"</value>
+    </item>
+    <item>
+        <key>Status</key>
+        <value>Open</value>
+    </item> 
+    <item>
+        <key>Typeofbug</key>
+        <value>Functional</value>  
+    </item>
+</root>
+
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Add commit
+
  38. Синхронизировать внешний и локальный репозиторий XML
+
+git fetch
+git pull
