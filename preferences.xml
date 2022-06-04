@@ -1,1 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<root> 
+    <item>
+        <key>Favourite TV show</key>
+        <value>Love Death + Robots</value>
+    </item>
+    <item>
+        <key>Fovourite movie</key>
+        <value>Lost River</value>
+    </item>
+    <item>
+        <key>Fovourite food</key>
+        <value>Lobster roll</value>
+    </item>
+    <item>
+        <key>Favorite time of years</key>
+        <value>Summer</value>
+    </item>
+    <item>
+        <key>"Plase you would like to visit"</key>
+        <value>Japan</value>
+    </item>
+</root>
