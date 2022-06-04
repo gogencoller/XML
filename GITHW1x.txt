@@ -15,6 +15,7 @@ XML
  24. Добавить файл под гит.
  
  git add
+
  25. Закоммитить файл.
  
  git commit -m ""
@@ -54,6 +55,7 @@ XML
 
 git commit -am ""
 git push
+
  29. Создать файл preferences.xml
 
 touch preferences.xml
