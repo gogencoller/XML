@@ -1,1 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<root> 
+    <item>
+        <key>Type</key>
+        <value>bug_report</value>
+    </item>
+    <item>
+        <key>Priority</key>
+        <value>Medium</value>
+    </item>
+    <item>
+        <key>Severenity</key>
+        <value>Major</value>
+    </item>
+    <item>
+        <key>Description</key>
+        <value>"SecondStep": "pass autorization",
+      "ThirdStep": "Press the button Menu",
+      "FourthStep": "Pay attention to the screen",
+      "ExpectedResult": "Press the button Menu and see categories of products",
+      "Result": "Press button Menu and see error"</value>
+    </item>
+    <item>
+        <key>Status</key>
+        <value>Open</value>
+    </item> 
+    <item>
+        <key>Typeofbug</key>
+        <value>Functional</value>  
+    </item>
+</root>
