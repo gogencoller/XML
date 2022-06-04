@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+    <item>
+        <key>First Name</key>
+        <value>Egor</value>
+    </item>
+    <item>
+        <key>Last Name</key>
+        <value>Beluga</value>
+    </item>
+    <item>
+        <key>age</key>
+        <value>28</value>
+    </item>
+    <item>
+        <key>number of pets</key>
+        <value>0</value>
+    </item>
+    <item>
+        <key>future desired salary</key>
+        <value>Negotiable</value>
+    </item>
+</root>
